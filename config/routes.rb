@@ -54,5 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
     root 'application#hello'
+  get '/good_bye', to: 'application#good_bye'
 
 end
